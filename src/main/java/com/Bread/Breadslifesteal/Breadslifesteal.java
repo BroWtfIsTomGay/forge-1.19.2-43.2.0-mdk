@@ -1,5 +1,6 @@
 package com.Bread.Breadslifesteal;
 //ball whacker 69
+import com.Bread.Breadslifesteal.item.Moditems;
 import com.mojang.logging.LogUtils;
 import net.minecraft.client.Minecraft;
 import net.minecraft.world.level.block.Blocks;
@@ -24,6 +25,8 @@ public class Breadslifesteal
     public Breadslifesteal()
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+
+        Moditems.register(modEventBus);
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);

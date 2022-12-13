@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "breadslifesteal:item/literally_just_an_explosive"
+  }
+}
