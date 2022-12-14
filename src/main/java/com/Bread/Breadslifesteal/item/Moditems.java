@@ -1,7 +1,6 @@
 package com.Bread.Breadslifesteal.item;
 
 import com.Bread.Breadslifesteal.Breadslifesteal;
-import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -15,7 +14,7 @@ public class Moditems {
             DeferredRegister.create(ForgeRegistries.ITEMS, Breadslifesteal.MOD_ID);
 
     public static final RegistryObject<Item> Literally_Just_An_Explosive = ITEMS.register("literally_just_an_explosive",
-        () -> new Item(new Item.Properties().stacksTo(69).tab(CreativeModeTab.TAB_MISC)));
+        () -> new Item(new Item.Properties().stacksTo(69).tab(ModCreativeModeTab.BOOM)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
