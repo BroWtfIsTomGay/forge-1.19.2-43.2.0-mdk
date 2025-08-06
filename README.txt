@@ -1,4 +1,4 @@
-Idk what the shit below means but I don't think ill ever get to this minecraft mod lol
+Idk what the shit below means but I don't think ill ever get to this minecraft mod lol, im pretty sure the only thing here is an item that looks like a pipebomb (in minecraft) but doesn't work :p
 
 Source installation information for modders
 -------------------------------------------
